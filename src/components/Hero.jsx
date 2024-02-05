@@ -18,7 +18,7 @@ const Hero = () => {
         <div>
         <motion.div variants={textVariant()}>
           <h1 className={`${styles.heroHeadText} text-white  mt-2`}>
-            Hi, I'm <span className='text-[#915eff]'>  Vibhor </span>
+            Hi, I'm <span className='glow text-[#915eff]'>  Vibhor </span>
           </h1>
           <p className={`${styles.heroSubText} shadow-sm text-white mt-2`}> Final year engineering student
             <br className='sm:block hidden' />

@@ -13,6 +13,25 @@
   color-scheme: dark;
 }
 
+.glow{
+   /* Adjust the font size as needed */
+  color: #915eff; /* Text color */
+  text-shadow: 0 0 6px rgb(0, 0, 0), 0 0 40px black, 0 0 8px rgb(255, 255, 255); /* Create a glowing effect with multiple shadows */
+  animation: glow infinite; /* Apply animation to the glowing effect */
+}
+
+@keyframes glow {
+  0% {
+      text-shadow: 0 0 10px #915eff, 0 0 20px #915eff, 0 0 30px #915eff;
+  }
+  50% {
+      text-shadow: none; /* Remove the glow at the midpoint of the animation */
+  }
+  100% {
+      text-shadow: 0 0 10px #915eff, 0 0 20px #915eff, 0 0 30px #915eff;
+  }
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

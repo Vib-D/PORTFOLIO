@@ -48,7 +48,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
@@ -124,105 +124,79 @@ import {
       iconBg: "#383E56",
       date: "September 2022 - November 2022",
       points: [
-        "Developing and maintaining web applications using HTML, CSS, JavaScript and other related technologies.",
+        "Developed and maintained web applications using HTML, CSS, and JavaScript.",
         "Worked majorly on front-end development. Built and maintained blog sites.",
-        "Oversaw website optimisation and improved the score.",
+        "Oversaw website optimisation and improved the SEO scores.",
       ],
     },
    
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "X-Social Media",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution.",
+        "Developed a dynamic social media platform reminiscent of Twitter using Next.js and TypeScript. Implemented responsive design and real-time functionalities to enhance user engagement.",
       tags: [
         {
-          name: "react",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Typescript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindCSS",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vib-D/X-SocialMedia",
     },
     {
-      name: "Job IT",
+      name: "Gourmetia",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a fully responsive restaurant landing page with a modern UI/UX using ReactJS and Figma.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS-BEM-Model",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "figma",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vib-D/react_restaurant",
     },
     {
-      name: "Trip Guide",
+      name: "Stay Healthy",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web application that allows users to book their appointment with doctors. It also provides information about the doctor's specialty, location, and availability for each appointment.",
       tags: [
         {
-          name: "nextjs",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Redux",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vib-D",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
